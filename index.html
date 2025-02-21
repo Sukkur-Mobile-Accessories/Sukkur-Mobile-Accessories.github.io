@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <!-- Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Shop High-Quality Chargers and Accessories</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="navigation">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav__hamburger">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-menu"></use>
+              </svg>
+            </div>
+
+            <div class="nav__logo">
+              <a href="/" class="scroll-link">
+                High-Quality Chargers and Accessories
+              </a>
+            </div>
+
+            <div class="nav__menu">
+              <div class="menu__top">
+                <span class="nav__category">PHONE</span>
+                <a href="#" class="close__toggle">
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                  </svg>
+                </a>
+              </div>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#header" class="nav__link scroll-link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#main" class="nav__link scroll-link">Products</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#footer" class="nav__link scroll-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Hero -->
+      <div class="hero">
+        <div class="glide" id="glide_1">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="hero__center">
+                  <div class="hero__left">
+                    <span class="" style="color: green"
+                      >Original High-Quality 2025</span
+                    >
+                    <h1 class="">
+                      Shop <span style="color: red">High-Quality</span> Chargers
+                      and Accessories!
+                    </h1>
+                    <p style="color: blue">
+                      Explore our collection of fast chargers, cables, and other
+                      mobile accessories tailored for your needs.
+                    </p>
+                    <a href="https://s.daraz.pk/s.0YlRF" target="_blank"
+                      ><button class="hero__btn">SHOP NOW</button></a
+                    >
+                  </div>
+                  <div class="hero__right">
+                    <div class="hero__img-container">
+                      <img
+                        class="banner_01"
+                        src="./images/charger_product/google_pixel_45w.png"
+                        alt="banner2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <!-- Remove one of the buttons since there is only one slide now -->
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <!-- Remove the right arrow since there is only one slide -->
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-arrow-left2"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main id="main">
+      <div class="section latest__products" id="latest">
+        <h1 class="title_h1">Latest Products</h1>
+        <div class="container" id="product-container"></div>
+      </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+      <div
+        class="container"
+        style="text-align: center; justify-content: center"
+      >
+        <div class="footer-top__box">
+          <h3 style="color: white">CONTACT US</h3>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+            Sukkur IBA University, Sukkur, Pakistan
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span>
+            aw0007329@gmail.com
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            +92 316 5355795
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+              </svg>
+            </span>
+            Sukkur, Pakistan
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer__bottom"
+        style="justify-content: center; text-align: center"
+      >
+        <div class="footer-bottom__box">
+          <!-- Daraz address link added here -->
+          <a
+            href="https://s.daraz.pk/s.0YlRF"
+            target="_blank"
+            class="footer__daraz-link"
+          >
+            Visit our Daraz Store
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div
+      style="
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+      "
+    >
+      <!-- "Designed by Abdul Manaf" Section -->
+      <p>
+        Designed by
+        <a
+          href="https://abdulmanaf12.github.io/"
+          target="_blank"
+          class="footer__designer-link"
+          >Abdul Manaf</a
+        >
+      </p>
+    </div>
+    <!-- Go To -->
+
+    <a href="#header" class="goto-top scroll-link">
+      <svg>
+        <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+      </svg>
+    </a>
+
+    <!-- Glide Carousel Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

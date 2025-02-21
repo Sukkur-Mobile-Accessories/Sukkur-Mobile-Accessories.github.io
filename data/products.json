@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "LG V60 ThinQ Original Charger with Type C Cable",
+      "price": "3999",
+      "originalPrice": "5000",
+      "description": "Original LG V60 charger with a Type C cable.",
+      "image": "./images/charger_product/lg_v60.png",
+      "category": "Chargers",
+      "rating": 5,
+      "sold": 38,
+      "location": "Sindh"
+    },
+    {
+      "id": 2,
+      "title": "Google Pixel 30W PD Charger",
+      "price": "3999",
+      "originalPrice": "4999",
+      "description": "30W PD charger for Google Pixel series with a savings of 120 coins.",
+      "image": "./images/charger_product/google_pixel_30w.png",
+      "category": "Chargers",
+      "rating": 5,
+      "sold": 38,
+      "location": "Sindh"
+    },
+    {
+      "id": 3,
+      "title": "Samsung 45W PD Super Fast Charger",
+      "price": "5499",
+      "originalPrice": "7499",
+      "description": "Samsung's 45W PD charger with a savings of 165 coins.",
+      "image": "./images/charger_product/samsung_charger_45w.png",
+      "category": "Chargers",
+      "rating": 3,
+      "sold": 9,
+      "location": "Sindh"
+    },
+    {
+      "id": 4,
+      "title": "30W PD Original Super Fast Charger",
+      "price": "4500",
+      "originalPrice": "5000",
+      "description": "30W PD charger with Type C cable for super-fast charging, coins saved 135.",
+      "image": "./images/charger_product/30w_pd_charger.png",
+      "category": "Chargers",
+      "rating": 4,
+      "sold": 32,
+      "location": "Sindh"
+    },
+    {
+      "id": 5,
+      "title": "OnePlus 65W Warp SuperVOOC Charger",
+      "price": "5300",
+      "originalPrice": "6499",
+      "description": "OnePlus Warp charger offering 65W with 8A support, coins saved 159.",
+      "image": "./images/charger_product/oneplus_charger.png",
+      "category": "Chargers",
+      "rating": 4,
+      "sold": 6,
+      "location": "Sindh"
+    },
+    {
+      "id": 6,
+      "title": "Apple 30W Original Charger for iPhone",
+      "price": "18499",
+      "originalPrice": "20000",
+      "description": "Apple's 30W charger for iPhone 14, 13, and more, coins saved 555.",
+      "image": "./images/charger_product/apple_charger.png",
+      "category": "Chargers",
+      "rating": 4,
+      "sold": 5,
+      "location": "Sindh"
+    },
+    {
+      "id": 7,
+      "title": "MacBook & iPad 30W PD Super Fast Charger",
+      "price": "4500",
+      "originalPrice": "8000",
+      "description": "Fast 30W PD charger for MacBook and iPad with Type C to Type C cable, coins saved 135.",
+      "image": "./images/charger_product/macbook_ipad_charger.png",
+      "category": "Chargers",
+      "rating": 5,
+      "sold": 8,
+      "location": "Sindh"
+    },
+    {
+      "id": 8,
+      "title": "Google Pixel 45W Original Charger",
+      "price": "5499",
+      "originalPrice": "7500",
+      "description": "45W PD charger for Google Pixel devices, coins saved 165.",
+      "image": "./images/charger_product/google_pixel_45w.png",
+      "category": "Chargers",
+      "rating": 5,
+      "sold": 10,
+      "location": "Sindh"
+    },
+    {
+      "id": 9,
+      "title": "Google Pixel 18W PD Charger",
+      "price": "3999",
+      "originalPrice": "5499",
+      "description": "18W PD charger with original Google Pixel cable for various devices.",
+      "image": "./images/charger_product/google_pixel_18w.png",
+      "category": "Chargers",
+      "rating": 4,
+      "sold": 15,
+      "location": "Sindh"
+    }
+  ]
+}
