@@ -498,7 +498,7 @@ Hero Media Query
   }
 
   .product_img {
-    object-fit: scale-down;
+    object-fit: contain;
   }
 }
 
