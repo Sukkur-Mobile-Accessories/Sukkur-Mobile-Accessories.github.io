@@ -18,7 +18,7 @@ const displayProducts = (products) => {
     return `
       <div class="product">
         <div class="product__header">
-          <img class="product-img" src="${product.image}" alt="product image">
+          <img class="product_img" src="${product.image}" alt="product image">
         </div>
         <div class="product__footer">
           <h3>${product.title}</h3>

@@ -509,6 +509,9 @@ Hero Media Query
     height: 700px;
     border: 5px dotted red;
   } */
+  .product_img {
+    object-fit: cover;
+  }
 }
 
 @media only screen and (max-width: 567px) {
@@ -520,7 +523,6 @@ Hero Media Query
   .hero__right {
     display: none;
   }
-  
 }
 
 /*
